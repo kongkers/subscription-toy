@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "graphql",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "../server/**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "Sources/Graphql",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "client"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+query GetPoints {
+  membership {
+    points
+  }
+}
+
+subscription PointsUpdate {
+  pointsChanged {
+    points
+    other
+  }
+}

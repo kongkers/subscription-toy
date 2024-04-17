@@ -1,0 +1,17 @@
+type Membership {
+  number: Int
+  points: Int!
+}
+
+type Query {
+  membership: Membership!
+}
+
+type ChangeMessage {
+  points: Int
+  other: Int
+}
+
+type Subscription {
+  pointsChanged: ChangeMessage
+}

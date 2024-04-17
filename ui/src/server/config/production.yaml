@@ -1,0 +1,4 @@
+TIME_ZONE: 'Australia/Sydney'
+
+server:
+  port: 3010
